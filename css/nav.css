@@ -1,0 +1,103 @@
+
+.nav{
+    height: 100px;
+    width: 100%;
+    background-color: #333131;
+    position: relative;
+    top: 0;
+  
+}
+.nav-icon{
+    display: flex;
+    position: absolute;
+    right: 10px;
+    color: white;
+}
+.home{
+    margin-left: 10px;
+    margin-top: 50px;
+    opacity: 0.5;
+    font-size: 25px;
+    display: flex;
+}
+
+.home:hover{
+    opacity: 1;
+    color: #c20000;
+}
+
+.home p{
+    margin-top: 0px;
+    margin-left: 10px;
+}
+
+.main{
+    height: 100vh;
+    /* flex: 1; */
+    width: 100%;
+    background-color: black;
+    position: relative;
+    left: 0;
+    right: 0;
+    }
+
+.footer{
+    height: 300px;
+    width: 100%;
+    background-color: #333131;
+    position: relative;
+    position: relative;
+    left: 0;
+    right: 0;
+    
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    background-color: #c20000;
+    border-radius: 50%;
+    position: absolute;
+    left: 47%;
+    bottom: 250px;
+}
+
+.logo img{
+    border-radius: 50%;
+}
+.doc{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.f-con{
+    display: flex;
+   
+   
+}
+.logo-name{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: relative;
+    top: 100px;
+}
+
+.cont{
+    height: 100px;
+    width: 100px;
+    background-color: gray;
+    position: relative;
+    left: 40%;
+    top: 100px;
+
+}
+
+.social-media{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position: relative;
+    top: 100px;
+    left: 77.5%;
+
+}
