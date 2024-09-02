@@ -1,103 +1,42 @@
-
-.nav{
-    height: 100px;
-    width: 100%;
-    background-color: #333131;
-    position: relative;
-    top: 0;
+body{
+    font-family: georama , sans-serif !important;
   
 }
-.nav-icon{
-    display: flex;
-    position: absolute;
-    right: 10px;
-    color: white;
-}
-.home{
-    margin-left: 10px;
-    margin-top: 50px;
-    opacity: 0.5;
-    font-size: 25px;
-    display: flex;
-}
 
-.home:hover{
-    opacity: 1;
-    color: #c20000;
-}
+/* nav icons a tag */
 
-.home p{
-    margin-top: 0px;
-    margin-left: 10px;
-}
 
-.main{
-    height: 100vh;
-    /* flex: 1; */
-    width: 100%;
-    background-color: black;
-    position: relative;
-    left: 0;
-    right: 0;
-    }
-
-.footer{
-    height: 300px;
-    width: 100%;
-    background-color: #333131;
-    position: relative;
-    position: relative;
-    left: 0;
-    right: 0;
+.nav-link{
+    color: #ffff !important;
+    font-family: Montserrat !important;
+    font-size: .9rem !important;
+    text-transform:uppercase;
     
 }
-.logo{
-    height: 100px;
-    width: 100px;
-    background-color: #c20000;
-    border-radius: 50%;
-    position: absolute;
-    left: 47%;
-    bottom: 250px;
+
+.nav-link:hover{
+    color: #cb0202 !important;
 }
 
-.logo img{
-    border-radius: 50%;
-}
-.doc{
-    display: flex;
-    flex-wrap: wrap;
+#navbarText{
+    margin-left: 280px !important;
 }
 
-.f-con{
-    display: flex;
+#navbarText a{
+    padding: 20px;
+    font-size: 1rem !important;
+}
+
+#Logo{
+    margin-left: 20px;
+}
+
+.navbar{
+    height: 70px !important;
+}
+
+.nav-item i{
+    font-size: 1.5rem;
    
-   
-}
-.logo-name{
-    height: 100px;
-    width: 100px;
-    background-color: red;
-    position: relative;
-    top: 100px;
 }
 
-.cont{
-    height: 100px;
-    width: 100px;
-    background-color: gray;
-    position: relative;
-    left: 40%;
-    top: 100px;
-
-}
-
-.social-media{
-    height: 100px;
-    width: 100px;
-    background-color: blue;
-    position: relative;
-    top: 100px;
-    left: 77.5%;
-
-}
