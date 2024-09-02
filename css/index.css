@@ -14,8 +14,8 @@ color: #ffff;
 }
 
 .strip p{
-    margin-left: 90px;
-    margin-top: 10px;
+    margin-left: 90px ;
+    margin-top: 10px !important;
 }
 
 .galery{
@@ -25,7 +25,9 @@ color: #ffff;
     font-size: 1.125rem;
 }
 .galery h1{
-    margin-top: 50px;
+    margin-top: 5% !important;
+    position: relative;
+    top: 10px;
     letter-spacing: .2rem;
     text-align: center;
     
@@ -36,7 +38,7 @@ color: #ffff;
     
 }
 
-.row{
+.img_row{
     margin-top: 10px;
     margin-bottom: 25px;
 }
@@ -56,6 +58,5 @@ footer{
 }
 
 .row img:hover{
-    transform: scale(1);
-
+    transform: scale(1.02);
 }
