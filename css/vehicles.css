@@ -1,4 +1,31 @@
-
+body{
+  background-color: #0b0405;
+}
 .pd{
   margin-left: 2%;
+}
+
+col-md-4 img{
+  border-radius: 0 0 9px;
+  transition: 1s;
+}
+.col-md-4 img:hover {
+  transform: scale(1.0);
+ 
+
+
+}
+
+.card-body{
+  background-color: #212529;
+  color: white;
+  border-radius: 0 0 9px 9px;
+  text-align: center;
+}
+
+.card{
+  transition: 0.7s;
+}
+.card:hover{
+  transform: scale(1.06);
 }
