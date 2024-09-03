@@ -29,3 +29,10 @@ col-md-4 img{
 .card:hover{
   transform: scale(1.06);
 }
+.strip{
+  background-color: #212529;
+};
+.strip1{
+  background-color: black;
+}
+
