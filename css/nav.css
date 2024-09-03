@@ -1,24 +1,24 @@
-body{
+/* body{
     font-family: georama , sans-serif !important;
   
-}
+} */
 
 /* nav icons a tag */
 
 
-.nav-link{
+/* .nav-link{
     color: #ffff !important;
     font-family: Montserrat !important;
     font-size: .9rem !important;
     text-transform:uppercase;
     
-}
+} */
 
 .nav-link:hover{
     color: #cb0202 !important;
 }
 
-#navbarText{
+/* #navbarText{
     margin-left: 280px !important;
 }
 
@@ -37,7 +37,7 @@ body{
 
 .nav-item i{
     font-size: 1.5rem;
-    box-shadow:  red 10px 10px 10px  !important;
+ 
    
-}
+} */
 
