@@ -70,8 +70,9 @@ footer{
 .car_bg_2{
     height: 400px;
     width: 335px;
-    background-image: url(../imeges/car_bg_2.webp);
+    background-image: url(/imeges/car_bg_2.webp);
     /* text-align: center; */
+    
 }
 
 .bg_on_Text{
