@@ -60,3 +60,39 @@ footer{
 .row img:hover{
     transform: scale(1.02);
 }
+
+.text_img{
+    align-items: center;
+    align-content: center;
+    margin-top: 10%;
+}
+
+.car_bg_2{
+    height: 400px;
+    width: 335px;
+    background-image: url(../imeges/car_bg_2.webp);
+    /* text-align: center; */
+}
+
+.bg_on_Text{
+ position: relative;
+ padding: 15%;
+ left: 10%;
+ padding-left: 0;
+ font-weight: 400px;
+}
+
+.btn_bg_2
+{
+    position: relative;
+    bottom: 40%;
+    left: 10%;
+}
+
+.marquee{
+    background-color: black;
+}
+
+button:hover{
+    background-color: red !important;
+}

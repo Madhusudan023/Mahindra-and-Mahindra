@@ -1,19 +1,17 @@
-footer{
-    width: 100% !important;
-    position: absolute !important;
-    bottom: 0 !important;
+.footer{
+    font-family: Montserrat;
 }
 
 .pages{
-    margin-top: 1%  !important;
+    margin-top: 2%  !important;
 }
 
 .info{
-    margin-top: 1%  !important;
+    margin-top: 2%  !important;
 } 
 
 .icons{
-    margin-top: 1% !important;
+    margin-top: 2% !important;
     
 }
 
