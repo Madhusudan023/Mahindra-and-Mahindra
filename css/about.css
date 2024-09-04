@@ -19,7 +19,9 @@ body {
   }
   .img-a:hover{
     background-color: #333333;
+    color: #fff ;
     }
+
     .img-b:hover{
         background-color:#333333;
         color: #fff
@@ -27,7 +29,7 @@ body {
   
   .card-body{
     background-color:#212529;
-    color: white;
+    color: white !important;
     border-radius: 0 0 9px 9px;
     
     text-align: center;
