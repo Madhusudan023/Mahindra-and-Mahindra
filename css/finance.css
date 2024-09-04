@@ -1,8 +1,26 @@
 /* .cb{
     background-color: red);
 } */
- .bgimg{
+/* + */
+.bgimg{
     height: 577px;
     
     background-image: url("../imeges/buyimg/FinanceBannerWebDT.svg");
+ }
+
+ body
+  {
+ color: white !important;
+ background-color: black !important;
+ }
+
+ .card{
+    background-color: black !important;
+    color: white !important;
+ }
+
+
+ .card:hover{
+    background-color: black !important;
+    color: white !important;
  }
