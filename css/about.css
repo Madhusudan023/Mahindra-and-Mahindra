@@ -18,16 +18,18 @@ body {
   
   }
   .img-a:hover{
-    background-color: red;
+    background-color: #333333;
     }
     .img-b:hover{
-        background-color: rgb(247, 69, 69);
+        background-color:#333333;
+        color: #fff
         }
   
   .card-body{
-    background-color: ;
+    background-color:#212529;
     color: white;
     border-radius: 0 0 9px 9px;
+    
     text-align: center;
   }
   
@@ -36,5 +38,8 @@ body {
   }
   .card:hover{
     transform: scale(1.06);
+  }
+  .col{
+    color: #FFF !important; 
   }
   
