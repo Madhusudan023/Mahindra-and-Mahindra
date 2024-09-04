@@ -1,8 +1,17 @@
+body{
+    background-color: whitesmoke !important;
+    font-family: monospace !important;
+
+}
 .img1{
-    border-radius: 20px;
+    /* border-radius: 50px; */
     position: absolute;
     top: 200px;
-    left: 650px;
+    left: 770px;
+}
+.cont{
+    letter-spacing: 1px-;
+    background-color: #ffffff00;
 }
 /* .bg-color{
     background-color: red;
