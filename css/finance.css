@@ -24,3 +24,17 @@
     background-color: black !important;
     color: white !important;
  }
+ .col:hover{
+    border-radius: 10%;
+    background-color: rgb(49, 47, 47);
+    transform: scale(1.1);
+}
+ .col1:hover{
+    background-color: rgb(49, 47, 47);
+    transform: scale(1.1);
+ }
+ .col2:hover{
+    border-radius: 10%;
+    background-color: rgb(49, 47, 47);
+    transform: scale(1.1);
+ }
