@@ -81,9 +81,6 @@
         <li class="nav-item">
           <a class="nav-link text-white" href="mailto:madhsudanbadgujar260@gmail.com"> <i class="fa-regular fa-envelope"></i></a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link text-white" href="#"> <i class="fa-solid fa-magnifying-glass"></i></a>
-        </li>
       </ul>
       <span class="navbar-text">
         <!-- Navbar text with an inline element -->
@@ -96,83 +93,71 @@
 
 
     
-        <div class="container mt-5 bg-color cont">
-
-            <div class="row align-items-start">
-                <div class="col-md-6">
-                    <h2>Book Your Car..</h2>
-                    <form>
-                        <!-- Personal Information -->
-                        <div class="mb-3">
-                            <label for="name" class="form-label"><b>Name</b></label>
-                            <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="email" class="form-label"><b>Email address</b></label>
-                            <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="phone" class="form-label"><b>Phone Number</b></label>
-                            <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number"
-                                required>
-                        </div>
-
-                        <!-- Car Selection -->
-                        <div class="mb-3">
-                            <label for="carModel" class="form-label"><b>Select Car Model</b></label>
-                            <select class="form-select" id="carModel" required>
-                                <option selected disabled value="">Choose...</option>
-                                <option value="thar">Mahindra Thar</option>
-                                <option value="xuv700">Mahindra XUV700</option>
-                                <option value="scorpioN">Mahindra Scorpio N</option>
-                                <option value="bolero">Mahindra Bolero</option>
-                                <option value="marazzo">Mahindra Marazzo</option>
-                            </select>
-                            </select>
-                        </div>
-
-                        <!-- Booking Details -->
-                        <div class="mb-3">
-                            <label for="pickupDate" class="form-label"><b>Pick-up Date</b></label>
-                            <input type="date" class="form-control" id="pickupDate" required>
-                        </div>
-                        <!-- <div class="mb-3">
-                <label for="returnDate" class="form-label">Return Date</label>
-                <input type="date" class="form-control" id="returnDate" required>
-            </div> -->
-                        <div class="mb-3">
-                            <label for="pickupLocation" class="form-label"><b>Pick-up Location</b></label>
-                            <input type="text" class="form-control" id="pickupLocation"
-                                placeholder="Enter pick-up location" required>
-                        </div>
-                        <!-- <div class="mb-3">
-                <label for="returnLocation" class="form-label">Return Location</label>
-                <input type="text" class="form-control" id="returnLocation" placeholder="Enter return location" required>
-            </div> -->
-
-                        <!-- Additional Options -->
-                        <div class="mb-3 form-check">
-                            <input type="checkbox" class="form-check-input" id="gps">
-                            <label class="form-check-label" for="gps">Include GPS</label>
-                        </div>
-                        <div class="mb-3 form-check">
-                            <input type="checkbox" class="form-check-input" id="childSeat">
-                            <label class="form-check-label" for="childSeat">Include Child Seat</label>
-                        </div>
-
-                        <!-- Submit Button -->
-                        <button type="submit" class="btn btn-primary"><b>Book Now</b></button>
-                    </form>
-                </div>
-            </div>
-        </div>
-            <div class="col-md-6 img1">
-
-                <img class="img-fluid" src="./imeges/buyimg/financepage.webp"
-                    alt="Tharroxx">
-
-            </div>
-        </div>
+        <div class="container mt-5 bg-light p-4 rounded shadow-sm">
+          <div class="row align-items-start">
+              <!-- Booking Form -->
+              <div class="col-md-6">
+                  <h2 class="mb-4">Book Your Car</h2>
+                  <form>
+                      <!-- Personal Information -->
+                      <div class="mb-3">
+                          <label for="name" class="form-label"><b>Name</b></label>
+                          <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                      </div>
+                      <div class="mb-3">
+                          <label for="email" class="form-label"><b>Email address</b></label>
+                          <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                      </div>
+                      <div class="mb-3">
+                          <label for="phone" class="form-label"><b>Phone Number</b></label>
+                          <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number" required>
+                      </div>
+      
+                      <!-- Car Selection -->
+                      <div class="mb-3">
+                          <label for="carModel" class="form-label"><b>Select Car Model</b></label>
+                          <select class="form-select" id="carModel" required>
+                              <option selected disabled value="">Choose...</option>
+                              <option value="thar">Mahindra Thar</option>
+                              <option value="xuv700">Mahindra XUV700</option>
+                              <option value="scorpioN">Mahindra Scorpio N</option>
+                              <option value="bolero">Mahindra Bolero</option>
+                              <option value="marazzo">Mahindra Marazzo</option>
+                          </select>
+                      </div>
+      
+                      <!-- Booking Details -->
+                      <div class="mb-3">
+                          <label for="pickupDate" class="form-label"><b>Pick-up Date</b></label>
+                          <input type="date" class="form-control" id="pickupDate" required>
+                      </div>
+                      <div class="mb-3">
+                          <label for="pickupLocation" class="form-label"><b>Pick-up Location</b></label>
+                          <input type="text" class="form-control" id="pickupLocation" placeholder="Enter pick-up location" required>
+                      </div>
+      
+                      <!-- Additional Options -->
+                      <div class="mb-3 form-check">
+                          <input type="checkbox" class="form-check-input" id="gps">
+                          <label class="form-check-label" for="gps">Include GPS</label>
+                      </div>
+                      <div class="mb-3 form-check">
+                          <input type="checkbox" class="form-check-input" id="childSeat">
+                          <label class="form-check-label" for="childSeat">Include Child Seat</label>
+                      </div>
+      
+                      <!-- Submit Button -->
+                      <button type="submit" class="btn btn-primary"><b>Book Now</b></button>
+                  </form>
+              </div>
+      
+              <!-- Image Section -->
+              <div class="col-md-6">
+                  <img class="img-fluid rounded" src="./imeges/buyimg/financepage.webp" alt="Thar">
+              </div>
+          </div>
+      </div>
+      
         
 <br><br>
     <!-- Footer -->
