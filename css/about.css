@@ -1,5 +1,5 @@
 body {
-    color: #FFF !important;
+    color: black !important;
     background-color: #0b0405 !important;
     
   }
@@ -7,7 +7,7 @@ body {
     margin-left: 2%;
   }
   
-  col-md-4 img{
+ .col-md-4 img{
     border-radius: 0 0 9px;
     transition: 1s;
   }
@@ -19,23 +19,24 @@ body {
   }
   .img-a:hover{
     background-color: #333333;
-    color: #fff ;
+    color: black;
     }
 
     .img-b:hover{
         background-color:#333333;
-        color: #fff
+        color: black;
         }
   
   .card-body{
     background-color:#212529;
-    color: white !important;
-    border-radius: 0 0 9px 9px;
+    color: #FFF !important;
+    border-radius: 0 0 9px 9px black;
     
     text-align: center;
   }
   
   .card{
+    border: solid black !important;
     transition: 0.7s;
   }
   .card:hover{
