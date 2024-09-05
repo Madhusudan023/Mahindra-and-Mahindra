@@ -105,21 +105,21 @@
         <form>
           <!-- Personal Information -->
           <div class="mb-3">
-            <label for="name" class="form-label"><b>Name</b></label>
+            <label for="name" class="form-label"><b>Name</b> <span class="text-danger">*</span></label>
             <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
           </div>
           <div class="mb-3">
-            <label for="email" class="form-label"><b>Email address</b></label>
+            <label for="email" class="form-label"><b>Email address</b> <span class="text-danger">*</span></label>
             <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
           </div>
           <div class="mb-3">
-            <label for="phone" class="form-label"><b>Phone Number</b></label>
+            <label for="phone" class="form-label"><b>Phone Number</b> <span class="text-danger">*</span></label>
             <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number" required>
           </div>
 
           <!-- Car Selection -->
           <div class="mb-3">
-            <label for="carModel" class="form-label"><b>Select Car Model</b></label>
+            <label for="carModel" class="form-label"><b>Select Car Model</b> <span class="text-danger">*</span></label>
             <select class="form-select" id="carModel" required>
               <option selected disabled value="">Choose...</option>
               <option value="thar">Mahindra Thar</option>
@@ -132,11 +132,11 @@
 
           <!-- Booking Details -->
           <div class="mb-3">
-            <label for="pickupDate" class="form-label"><b>Pick-up Date</b></label>
+            <label for="pickupDate" class="form-label"><b>Pick-up Date</b> <span class="text-danger">*</span></label>
             <input type="date" class="form-control" id="pickupDate" required>
           </div>
           <div class="mb-3">
-            <label for="pickupLocation" class="form-label"><b>Pick-up Location</b></label>
+            <label for="pickupLocation" class="form-label"><b>Pick-up Location</b> <span class="text-danger">*</span></label>
             <input type="text" class="form-control" id="pickupLocation" placeholder="Enter pick-up location" required>
           </div>
 
@@ -157,6 +157,9 @@
 
       <!-- Image Section -->
       <div class="col-md-6">
+        <br>
+        <br>
+        <br>
         <img class="img-fluid rounded py-md-5" src="./imeges/buyimg/financepage.webp" alt="Thar">
       </div>
     </div>
