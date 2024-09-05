@@ -13,6 +13,7 @@
  color: white !important;
  background-color: black !important;
  }
+
 /* .doc:hover{
    background-color: black;
 } */
@@ -41,6 +42,7 @@
 } */
 
 .col1:hover{
+   border-radius: 10%;
     background-color: #201f1f;
     
  }
