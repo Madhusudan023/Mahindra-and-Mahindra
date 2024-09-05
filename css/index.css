@@ -58,7 +58,7 @@ footer{
 }
 
 .row img:hover{
-    transform: scale(1.02);
+    /* transform: scale(1.02); */
 }
 
 .text_img{
@@ -94,6 +94,16 @@ footer{
     background-color: black;
 }
 
-button:hover{
-    /* background-color: red !important; */
+.card-text{
+    opacity: 0.8 !important;
+}
+
+.card-text:hover{
+    opacity: 1 !important;
+}
+.card{
+    transition: 0.51s;
+}
+.card:hover{
+    transform: scale(1.02) !important;
 }

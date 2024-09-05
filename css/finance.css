@@ -1,8 +1,54 @@
 /* .cb{
     background-color: red);
 } */
- .bgimg{
+/* + */
+.bgimg{
     height: 577px;
     
     background-image: url("../imeges/buyimg/FinanceBannerWebDT.svg");
+ }
+
+ body
+  {
+ color: white !important;
+ background-color: black !important;
+ }
+.doc:hover{
+   background-color: #121212;
+}
+ .card{
+    background-color: black !important;
+    color: white !important;
+ }
+
+
+ .card:hover{
+    background-color: black !important;
+    color: white !important;
+ }
+.col{ 
+   transition: 0.5s;
+}
+
+ .col:hover{
+    border-radius: 10%;
+    background-color: #121212;
+    transform: scale(1.05);
+}
+
+/* .col1{
+   transition: 0.5s;
+} */
+
+.col1:hover{
+    background-color: #121212;
+    
+ }
+ .col2{
+   transition: 0.5s;
+}
+ .col2:hover{
+    border-radius: 10%;
+    background-color: #121212;
+    transform: scale(1.05);
  }
