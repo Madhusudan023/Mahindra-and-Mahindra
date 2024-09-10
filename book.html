@@ -35,9 +35,6 @@
   <link rel="icon" type="image/webp"
     href="https://auto.mahindra.com/on/demandware.static/Sites-amc-Site/-/default/dwf2ac47d0/images/favicons/favicon.webp"
     sizes="16x16" />
-  <!-- model link -->
-
-
 </head>
 
 <body>
@@ -147,27 +144,6 @@
             <input type="checkbox" class="form-check-input" id="childSeat">
             <label class="form-check-label" for="childSeat">Include Child Seat</label>
           </div>
-          <!-- Submit Button -->
-          <!-- <button class="btn btn-primary" type="submit" value="Submit" data-bs-toggle="model" data-target="#yourModelId">Book</button>-->
-          <!-- Modal -->
-          <!-- <div class="modal fade" id="yourModelId" role="dialog">
-            <div class="modal-dialog model-sm">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h1 class="modal-title fs-5" id="yourModelIdlLabel">Booking</h1>
-                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> 
-                </div>
-                <div class="modal-body">
-                  <p>Your Car is Booked Now...</p>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-default" data-bs-dismiss="modal">Close</button>
-                  <button type="button" class="btn btn-primary">Save </button>
-                </div>
-              </div>
-            </div>
-          </div> -->
-
           <button type="button" class="btn btn-primary" data-bs-toggle="modal"
             data-bs-target="#exampleModal">Book</button>
           <!-- Modal -->
@@ -191,7 +167,6 @@
       <!-- Image Section -->
       <div class="col-md-6">
         <!-- <div class="col">
-
           <div class="row justify-content-center">
             <div class="col-md-6">
               <h2 class="text-center mb-4">Loan Calculator</h2>
@@ -218,8 +193,7 @@
             const loanAmount = document.getElementById('loanAmount').value;
             const interestRate = document.getElementById('interestRate').value;
             const loanTerm = document.getElementById('loanTerm').value;
-
-            if (loanAmount && interestRate && loanTerm) {
+ if (loanAmount && interestRate && loanTerm) {
               const monthlyInterestRate = (interestRate / 100) / 12;
               const numberOfPayments = loanTerm * 12;
               const x = Math.pow(1 + monthlyInterestRate, numberOfPayments);
