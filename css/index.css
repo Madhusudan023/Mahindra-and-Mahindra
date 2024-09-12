@@ -108,6 +108,10 @@ footer{
     transform: scale(1.02) !important;
 }
 
+.text-danger{
+  
+}
+
 #back-to-top-btn {
     display: none;
     position: fixed;
