@@ -11,6 +11,7 @@ body {
     border-radius: 0 0 9px;
     transition: 1s;
   }
+  
   .col-md-4 img:hover {
     transform: scale(1.0);
    
@@ -44,5 +45,9 @@ body {
   }
   .col{
     color: #FFF !important; 
+  }
+
+  .bg-color{
+    color: #e41837;
   }
   
